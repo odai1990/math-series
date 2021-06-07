@@ -70,3 +70,27 @@ def test_five_lucas():
 
 
 #### end of lucas ######
+
+
+##### lucas ######
+
+def test_one_sum_series():
+    actual=1
+    expected=sum_series(1)
+    assert actual==expected
+
+
+def test_less_than_zero_sum_series():
+    actual='invalid intrence'
+    expected=sum_series(-1)
+    assert actual==expected
+
+def test_other_type_sum_series():
+    actual='invalid intrence'
+    expected=sum_series("dddd")
+    assert actual==expected
+
+
+
+
+#### end of lucas ######
