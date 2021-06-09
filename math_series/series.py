@@ -2,8 +2,14 @@
 
 def fibonacci(n):
    
-    #  This function takes in a number and returns a fibonacci value of it which is the sum of the fibonacci value of the two nambers before and it uses recursion.
-   
+    
+    """
+    This function takes in a number and returns a fibonacci value of it which is the sum of the fibonacci value of the two nambers before and it uses recursion.
+    Arguments:
+        n:int --- to know where exactly 
+    Returns:
+        returns a fibonacci value
+    """
     if type(n) != int or n<0:
         return 'invalid intrence'
     if n==1:
@@ -16,7 +22,16 @@ def fibonacci(n):
 
 
 def lucas(n):
-    # This function takes in a number and returns a lucas value of it which is the sum of the lucas value of the two nambers before and it uses recursion.
+
+
+    """
+    This function takes in a number and returns a lucas value of it which is the sum of the lucas value of the two nambers before and it uses recursion.
+    Arguments:
+        n:int --- to know where exactly 
+    Returns:
+        returns a lucas value
+    """
+
     if type(n) != int or n<0:
         return 'invalid intrence'
     if n==0:
@@ -29,7 +44,16 @@ def lucas(n):
 
 
 def sum_series(n,first=0,second=1):
-   #This function takes in a number and returns a fibonacci value of it which is the sum of the fibonacci value of the two nambers before and it uses recursion when two optional arguments are passed, it returns the lucas value.
+   
+    """
+    This function takes in a number and returns a fibonacci value of it which is the sum of the fibonacci value of the two nambers before and it uses recursion when two optional arguments are passed, it returns the lucas value.
+    Arguments:
+        n:int --- to know where exactly 
+        first:int --- first number in serise
+        second:int --- second number in serise
+    Returns:
+        returns a lucas value
+    """
     if type(n) != int or n<0:
         return 'invalid intrence'
     if n==0:
